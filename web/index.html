@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="main.dart" type="application/dart"></script>
+    <script defer src="packages/browser/dart.js"></script>
+</head>
+
+<body>
+
+    <div id="mainDiv" class="mainDiv">
+        <button type="button" class="runs" id="boundary">4</button>
+        <button type="button" class="runs" id="doublerun">2</button>
+        <button type="button" class="runs" id="six">6</button>
+        <button type="button" class="runs" id="singlerun">1</button>
+
+        <div class="subDivOver">
+            <button type="button" class="ball" id="finishOver">Finish Over</button>
+        </div>
+
+        <div id="subDiv" class="subDiv">
+            <button type="button" class="ball" id="ball">Next Ball</button>
+        </div>
+
+    </div>
+
+
+    <p id="totalRuns" class="runsScored">Total Runs Scored: 0</p> <br>
+    <p id="totalBalls" class="runsScored">Total Balls Bowled: 0</p>
+
+
+</body>
+</html>
